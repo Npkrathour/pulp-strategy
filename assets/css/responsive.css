@@ -181,11 +181,31 @@
       line-height: 40px;
     }
   }
+  .nav-logo {
+    font-size: 25px;
+  }
+  .navbar-brand h5 {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 400px) {
   .back-content {
     top: 15%;
     left: 9%;
     font-size: 29px;
+  }
+  .about-section {
+    & h2 {
+      font-size: 26px;
+      line-height: 39px;
+    }
+  }
+  .about-section {
+    & p {
+      padding: 0px 28px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 27px;
+    }
   }
 }
